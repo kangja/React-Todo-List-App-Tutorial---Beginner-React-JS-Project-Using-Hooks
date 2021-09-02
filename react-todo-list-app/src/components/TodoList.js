@@ -10,7 +10,7 @@ function TodoList() {
       return;
     }
 
-    const newTodos = [todo, ...todos];
+    const newTodos = [...todos, todo];
 
     setTodos(newTodos);
   };
